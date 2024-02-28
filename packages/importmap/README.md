@@ -1,11 +1,7 @@
-# `importmap`
-
-> TODO: description
+# `Generating importmap`
 
 ## Usage
 
 ```
-const importmap = require('importmap');
-
-// TODO: DEMONSTRATE API
+npm run generate
 ```
