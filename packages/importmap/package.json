@@ -1,0 +1,34 @@
+{
+  "name": "importmap",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "GN-c <giorginadiradze1234@gmail.com>",
+  "homepage": "https://github.com/GN-c/phaser3-bundle-optimizer#readme",
+  "license": "ISC",
+  "main": "src/importmap.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GN-c/phaser3-bundle-optimizer.git"
+  },
+  "scripts": {
+    "generate": "ts-node ./src/index.ts",
+    "test": "node ./__tests__/importmap.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/GN-c/phaser3-bundle-optimizer/issues"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.2",
+    "npm": "^10.4.0",
+    "phaser": "^3.80.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  }
+}
